@@ -6,7 +6,7 @@
         {
           "GPUx": "NVIDIA",
           "MINER": "nvidia-phoenix",
-          "PATH": "~\\Miners\\all\\phoenix\\PhoenixMiner_5.1c_Windows\\",
+          "PATH": "~\\Miners\\all\\phoenix\\PhoenixMiner_5.4c_Windows\\",
           "EXECUTABLE": "PhoenixMiner.exe",
           "PREFERED": "1",
           "API": "phoenix",
@@ -15,7 +15,7 @@
         {
           "GPUx": "AMD",
           "MINER": "amd-phoenix",
-          "PATH": "~\\Miners\\all\\phoenix\\PhoenixMiner_5.1c_Windows\\",
+          "PATH": "~\\Miners\\all\\phoenix\\PhoenixMiner_5.4c_Windows\\",
           "EXECUTABLE": "PhoenixMiner.exe",
           "PREFERED": "1",
           "API": "phoenix",
