@@ -2,9 +2,9 @@
   "miners": [
     {
       "NAME": "phoenix",
-      "WEBLOCATION": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/PhoenixMiner_5.1c_Windows.zip",
+      "WEBLOCATION": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/PhoenixMiner_5.4c_Windows.zip",
       "PATH": "~\\Miners\\all\\phoenix\\",
-      "VER": "5.1c"
+      "VER": "5.4c"
     },
     {
       "NAME": "trex",
