@@ -655,6 +655,7 @@
     </None>
     <None Include="MyMiner_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="Resources\click_to_stop.png" />
     <None Include="Settings\AIOMiner.json" />
     <None Include="Settings\AIOMiner_Default.json" />
     <None Include="Settings\AIOProfitability.json" />
@@ -729,7 +730,6 @@
     <None Include="Resources\ETC.png" />
     <None Include="Resources\ETC2.png" />
     <None Include="Resources\BitcoinGold-Icon-yelow.png" />
-    <None Include="Resources\click_to_stop.png" />
     <Content Include="Resources\LH2-Stop-icon.png" />
     <None Include="Resources\STOP.png" />
     <None Include="Resources\START.png" />

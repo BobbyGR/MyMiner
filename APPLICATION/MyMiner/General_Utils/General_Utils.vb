@@ -134,7 +134,14 @@ Public Class General_Utils
             Try
                 Dim SettingsConfig As mAIOS = GetAIOSettings()
                 Dim TheConfig As List(Of MAINAPP) = SettingsConfig.AIOSs.MAINAPPs.ToList
-                ThingToReturn = TheConfig.Find(Function(x) x.type = ASettings).value
+                Try
+
+
+                    ThingToReturn = TheConfig.Find(Function(x) x.type = ASettings).value
+                Catch ex As Exception
+
+                End Try
+
                 Return ThingToReturn
             Catch ex As Exception
                 LogUpdate(ex.Message, eLogLevel.Err)
