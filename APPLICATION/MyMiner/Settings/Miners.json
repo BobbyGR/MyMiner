@@ -1,54 +1,10 @@
 {
   "miners": [
     {
-      "NAME": "ccminer_alexishsr",
-      "WEBLOCATION": "http://ccminer.org/preview/ccminer-hsr-alexis-x86-cuda8.7z",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_alexishsr\\"
-    },
-    {
-      "NAME": "ccminer",
-      "WEBLOCATION": "https://github.com/tpruvot/ccminer/releases/download/2.2.4-tpruvot/ccminer-x64-2.2.4-cuda9.7z",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer\\"
-    },
-    {
-      "NAME": "ccminer_alexis",
-      "WEBLOCATION": "http://cryptomining-blog.com/wp-content/download/ccminer-alexis-1.0-windows.zip",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_alexis\\"
-    },
-    {
-      "NAME": "sgminer",
-      "WEBLOCATION": "https://github.com/nicehash/sgminer/releases/download/5.6.1/sgminer-5.6.1-nicehash-51-windows-amd64.zip",
-      "PATH": "~\\Miners\\AMD\\sgminer\\"
-    },
-    {
-      "NAME": "ccminer_nice",
-      "WEBLOCATION": "https://github.com/nicehash/ccminer-nanashi/releases/download/1.7.6-r6/ccminer.zip",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_nice\\"
-    },
-    {
-      "NAME": "ccminer_klaust",
-      "WEBLOCATION": "https://github.com/KlausT/ccminer/releases/download/8.20/ccminer-820-cuda8-x64.zip",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_klaust\\"
-    },
-    {
-      "NAME": "ccminer_polytimos",
-      "WEBLOCATION": "https://github.com/nemosminer/ccminerpolytimos/releases/download/Alexis78-1.0/ccminer-polytimos.7z",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_polytimos\\"
-    },
-    {
-      "NAME": "ccminer_xevan",
-      "WEBLOCATION": "https://github.com/krnlx/ccminer-xevan/releases/download/0.1/ccminer.exe",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_xevan\\"
-    },
-    {
-      "NAME": "ccminer_phi",
-      "WEBLOCATION": "https://github.com/216k155/ccminer-phi-anxmod/releases/download/ccminer%2Fphi-1.0/ccminer-phi-1.0.zip",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_phi\\"
-    },
-    {
-      "NAME": "ccminer_nanashi",
-      "WEBLOCATION": "https://github.com/nicehash/ccminer-nanashi/releases/download/1.7.6-r6/ccminer.zip",
-      "PATH": "~\\Miners\\NVIDIA\\ccminer_nanashi\\"
+      "NAME": "phoenix",
+      "WEBLOCATION": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/PhoenixMiner_5.1c_Windows.zip",
+      "PATH": "~\\Miners\\phoenix\\",
+      "VER": "5.1c"
     }
   ]
 }

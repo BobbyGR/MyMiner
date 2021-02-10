@@ -222,6 +222,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="NewAPI.Designer.vb">
       <DependentUpon>NewAPI.vb</DependentUpon>
     </Compile>
@@ -340,11 +345,6 @@
     </Compile>
     <Compile Include="MinerStopped.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="My Project\RestartSettings.Designer.vb">
       <DependentUpon>RestartSettings.vb</DependentUpon>
@@ -563,8 +563,8 @@
     <EmbeddedResource Include="My Project\Resources.resx">
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\RestartSettings.resx">
       <DependentUpon>RestartSettings.vb</DependentUpon>
@@ -656,12 +656,27 @@
     <None Include="MyMiner_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Resources\click_to_stop.png" />
-    <None Include="Settings\AIOMiner.json" />
-    <None Include="Settings\AIOMiner_Default.json" />
-    <None Include="Settings\AIOProfitability.json" />
-    <None Include="Settings\AIOSettings.json" />
-    <None Include="Settings\MinerProcessInfo.json" />
-    <None Include="Settings\TimerSettings.json" />
+    <None Include="Settings\AIOMiner.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\AIOMiner_Default.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\AIOProfitability.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\AIOSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\MinerProcessInfo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\Miners.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Settings\TimerSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AIO.ico" />

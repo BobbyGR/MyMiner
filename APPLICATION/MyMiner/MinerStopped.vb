@@ -26,7 +26,7 @@ Public Class MinerStopped
 
         If PubShared.Subscriber = True Then
             LinkLabel1.Visible = False
-            PictureBox1.Image = My.Resources.Resources.click_to_stop
+            ' PictureBox1.Image = My.Resources.Resources.click_to_stop
 
 
         Else

@@ -2,8 +2,20 @@
   "AIOS": {
     "MAINAPP": [
       {
+        "type": "marquee",
+        "value": "True"
+      },
+      {
+        "type": "marqueesize",
+        "value": "14"
+      },
+      {
+        "type": "marqueespeed",
+        "value": "5"
+      },
+      {
         "type": "email",
-        "value": ""
+        "value": "False"
       },
       {
         "type": "automine",
@@ -11,19 +23,19 @@
       },
       {
         "type": "lastmined",
-        "value": ""
+        "value": "Donate"
       },
       {
-        "type": "idele",
+        "type": "idel",
         "value": "False"
       },
       {
         "type": "ideltmr",
-        "value": "320"
+        "value": "300"
       },
       {
         "type": "prices",
-        "value": "GBP"
+        "value": "USD"
       },
       {
         "type": "speed",
@@ -39,7 +51,7 @@
       },
       {
         "type": "firstrun",
-        "value": "Yes"
+        "value": "False"
       },
       {
         "type": "monday",
@@ -94,7 +106,7 @@
         "value": ""
       },
       {
-        "type": "worker",
+        "type": "altargument",
         "value": ""
       },
       {
@@ -103,11 +115,11 @@
       },
       {
         "type": "port",
-        "value": ""
+        "value": "True"
       },
       {
         "type": "intensity",
-        "value": ""
+        "value": "21"
       },
       {
         "type": "gpu0",
@@ -158,6 +170,10 @@
         "value": "True"
       },
       {
+        "type": "gpu12",
+        "value": "True"
+      },
+      {
         "type": "nvidia",
         "value": "False"
       },
@@ -166,7 +182,15 @@
         "value": "False"
       },
       {
-        "type": "Restart",
+        "type": "restart",
+        "value": "False"
+      },
+      {
+        "type": "disableamd",
+        "value": "False"
+      },
+      {
+        "type": "disablenvidia",
         "value": "False"
       },
       {
@@ -175,19 +199,19 @@
       },
       {
         "type": "coinprice2",
-        "value": "ETH"
+        "value": ""
       },
       {
         "type": "coinprice3",
-        "value": "BTCZ"
+        "value": " "
       },
       {
         "type": "coinprice4",
-        "value": ""
+        "value": " "
       },
       {
         "type": "coinprice5",
-        "value": ""
+        "value": " "
       },
       {
         "type": "coinprice6",
@@ -198,8 +222,128 @@
         "value": ""
       },
       {
+        "type": "ontop",
+        "value": "False"
+      },
+      {
+        "type": "updatecheck",
+        "value": "True"
+      },
+      {
+        "type": "aioupdatecheck",
+        "value": "False"
+      },
+      {
+        "type": "checkgoogle",
+        "value": "True"
+      },
+      {
+        "type": "checkwhattomine",
+        "value": "1"
+      },
+      {
+        "type": "dilly",
+        "value": "dolly"
+      },
+      {
+        "type": "donation",
+        "value": "Thank You!"
+      },
+      {
+        "type": "minerversion",
+        "value": "1.1"
+      },
+      {
+        "type": "restartrig",
+        "value": "False"
+      },
+      {
+        "type": "restartrigtime",
+        "value": "12 Hours"
+      },
+      {
+        "type": "restartmining",
+        "value": "False"
+      },
+      {
+        "type": "restartminingtime",
+        "value": "1 Hour"
+      },
+      {
         "type": "baseapiurl",
-        "value": "http://216.189.153.248:5000/"
+        "value": "https://dev.aiominer.com:5001"
+      },
+      {
+        "type": "apikey",
+        "value": ""
+      },
+      {
+        "type": "rigname",
+        "value": ""
+      },
+      {
+        "type": "apienabled",
+        "value": "False"
+      },
+      {
+        "type": "dontaskwebsite",
+        "value": "False"
+      },
+      {
+        "type": "powercosts",
+        "value": "0.10"
+      },
+      {
+        "type": "systemsettings",
+        "value": ""
+      },
+      {
+        "type": "WhatToMineUpdate",
+        "value": "1440"
+      },
+      {
+        "type": "apilocation",
+        "value": "https://dev.aiominer.com:5001/api"
+      },
+      {
+        "type": "web_version",
+        "value": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/webversion"
+      },
+      {
+        "type": "web_miner_version",
+        "value": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/webminerversion"
+      },
+      {
+        "type": "web_discord_link",
+        "value": "https://discord.gg/8jxJABE"
+      },
+      {
+        "type": "web_default_coins_pools_json",
+        "value": "https://raw.githubusercontent.com/BobbyGR/AIOMiner/master/TOOLS/AIOMiner_Default.json"
+      },
+      {
+        "type": "web_github_link",
+        "value": "https://github.com/BobbyGR/AIOMiner"
+      },
+      {
+        "type": "web_wiki_link_updates",
+        "value": "https://aiominer.com"
+      },
+      {
+        "type": "web_wiki_link_miner_updates",
+        "value": "https://aiominer.com"
+      },
+      {
+        "type": "web_reddit_link",
+        "value": "https://reddit.com/r/aiominer"
+      },
+      {
+        "type": "hosted_website",
+        "value": "https://aiominer.com"
+      },
+      {
+        "type": "hosted_data_store",
+        "value": "https://raw.githubusercontent.com/BobbyGR/AIOMiner/master/TOOLS"
       }
     ]
   }

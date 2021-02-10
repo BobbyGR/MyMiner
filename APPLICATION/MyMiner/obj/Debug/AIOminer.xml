@@ -37,11 +37,6 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.aio_logo">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.AIO_RED">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -58,11 +53,6 @@ AIOminer
 </summary>
 </member>
 <member name="P:AIOminer.My.Resources.Resources.azzz">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.beecool">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -92,11 +82,6 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.click_to_stop">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.electroneum_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -113,11 +98,6 @@ AIOminer
 </summary>
 </member>
 <member name="P:AIOminer.My.Resources.Resources.ETH">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.ethereum_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -148,11 +128,6 @@ AIOminer
 </summary>
 </member>
 <member name="P:AIOminer.My.Resources.Resources.hamburger_menu_icon_svg_20">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.hush_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -202,11 +177,6 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.komodo_logo_1">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.logo1_transparent_welcome">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -218,11 +188,6 @@ AIOminer
 </summary>
 </member>
 <member name="P:AIOminer.My.Resources.Resources.metaverse_logo_1">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.monacoin_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -267,17 +232,7 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.shovel_med">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.START">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.straks_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -302,11 +257,6 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.vertcoin_logo_1">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.vivo_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -322,22 +272,12 @@ AIOminer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:AIOminer.My.Resources.Resources.zcash_logo_1">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:AIOminer.My.Resources.Resources.zcash1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:AIOminer.My.Resources.Resources.zclassic_logo_1">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:AIOminer.My.Resources.Resources.zencash_logo_1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

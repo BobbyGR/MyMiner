@@ -49,13 +49,7 @@ Partial Class About
         Me.Label1.Text = "AIOMiner"
         '
         'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.AIOminer.My.Resources.Resources.aio_logo
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(277, 264)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+
         '
         'Label2
         '
@@ -79,13 +73,7 @@ Partial Class About
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.AIOminer.My.Resources.Resources.beecool
-        Me.PictureBox2.Location = New System.Drawing.Point(227, 228)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(48, 36)
-        Me.PictureBox2.TabIndex = 4
-        Me.PictureBox2.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox2, "Bee Cool!")
+
         '
         'RichTextBox1
         '

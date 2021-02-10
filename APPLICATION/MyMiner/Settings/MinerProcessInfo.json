@@ -1,108 +1,27 @@
-{ "Process" :
-  [
-	{ "Algo" : "equihash",
-	  "Info" :
-	  [
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDIA\\ewbf\\miner.exe",
-			"PASSW" : "",
-			"ARGS" : "--server _ip --user _worker --pass _pass --port _port --fee 0 --templimit 85 --eexit 3 --pec --api 127.0.0.1:42000 --cuda_devices _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\AMD\\zecminer\\ZecMiner64.exe",
-			"PASSW" : "x",
-			"ARGS" : "-zpool _ip:_port -zwal _worker -di _PubShared.GPUTOUSE -i 9"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\AMD\\zecminer\\ZecMiner64.exe",
-			"PASSW" : "",
-			"ARGS" : "-zpool _ip:_port -zwal _worker -zpsw _pass -di _PubShared.GPUTOUSE -i 9"
-		}
-	  ]
-	},
-	{ "Algo" : "lyra2rev2",
-	  "Info" :
-	  [
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDIA\\ccminer\\ccminer-x64.exe",
-			"PASSW" : "",
-			"ARGS" : " -a lyra2v2 -o _ip:_port -u _worker -p _pass --intensity=_intensity --devices _PubShared.GPUTOUSE"
-		}
-	  ]
-	},
-	{ "Algo" : "ethash",
-	  "Info" :
-	  [
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDAMD\\ethdcrminer64\\ethdcrminer64.exe",
-			"PASSW" : "x",
-			"ARGS" : "-epool _ip:_port -ewal _worker -epsw x -di _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDAMD\\ethdcrminer64\\ethdcrminer64.exe",
-			"PASSW" : "",
-			"ARGS" : "-epool _ip:_port -ewal _worker -epsw _pass -di _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\NVIDAMD\\ethdcrminer64\\ethdcrminer64.exe",
-			"PASSW" : "x",
-			"ARGS" : "-epool _ip:_port -ewal _worker -epsw x -di _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\NVIDAMD\\ethdcrminer64\\ethdcrminer64.exe",
-			"PASSW" : "",
-			"ARGS" : "-epool _ip:_port -ewal _worker -epsw _pass -di _PubShared.GPUTOUSE"
-		}
-	  ]
-	},
-	{ "Algo" : "neoscrypt",
-	  "Info" :
-	  [
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDIA\\ccminer\\ccminer-x64.exe",
-			"PASSW" : "",
-			"ARGS" : " -a neoscrypt -o _ip:_port -u _worker -p _pass --intensity=_intensity"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\NVIDAMD\\nsgminer\\nsgminer.exe",
-			"PASSW" : "",
-			"ARGS" : "-D --neoscrypt -o _ip:_port -u _worker -p _pass -I 15 --worksize 16 --api-listen --api-allow W:127.0.0.1"
-		}
-	  ]
-	},
-	{ "Algo" : "cryptonight",
-	  "Info" :
-	  [
-		{
-			"GPUx" : "NVIDIA",
-			"PATH" : "~\\Miners\\NVIDIA\\ccminer\\ccminer-x64.exe",
-			"PASSW" : "",
-			"ARGS" : " -a cryptonight -o _ip:_port -u _worker -p _pass --devices _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\AMD\\NsGPUxCNMiner\\NsGPUxCNMiner.exe",
-			"PASSW" : "x",
-			"ARGS" : "-dmem 0 -xpool _ip:_port -xwal _worker -di _PubShared.GPUTOUSE"
-		},
-		{
-			"GPUx" : "AMD",
-			"PATH" : "~\\Miners\\AMD\\zecminer\\ZecMiner64.exe",
-			"PASSW" : "",
-			"ARGS" : "-dmem 0 -xpool _ip:_port -xwal _worker -zpsw _pass -di _PubShared.GPUTOUSE"
-		}
-	  ]
-	}
-
+{
+  "Process": [
+    {
+      "Algo": "ethash",
+      "Info": [
+        {
+          "GPUx": "NVIDIA",
+          "MINER": "nvidia-phoenix",
+          "PATH": "~\\Miners\\phoenix\\PhoenixMiner_5.1c_Windows\\",
+          "EXECUTABLE": "PhoenixMiner.exe",
+          "PREFERED": "1",
+          "API": "phoenix",
+          "ARGS": "-pool _ip:_port -wal _worker"
+        },
+        {
+          "GPUx": "AMD",
+          "MINER": "amd-phoenix",
+          "PATH": "~\\Miners\\phoenix\\PhoenixMiner_5.1c_Windows\\",
+          "EXECUTABLE": "PhoenixMiner.exe",
+          "PREFERED": "",
+          "API": "phoenix",
+          "ARGS": "-pool _ip:_port -wal _worker"
+        }
+      ]
+    }
   ]
 }
