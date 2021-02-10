@@ -3497,12 +3497,12 @@ Public Class AIOMiner
         If TextBox1.Text = "An update for AIOMiner is available!  Click Here!" Then
             'Process.Start(pubshared.WEB_WIKI_LINK_UPDATES)
             Dim AIOU As New AIOMinerUpdates
-            AIOU.Show()
+            AIOU.ShowDialog()
 
         ElseIf TextBox1.Text = "A new Miner application is available! Click Here!" Then
             'Process.Start(pubshared.WEB_WIKI_LINK_MINER_UPDATES)
             Dim AIOU As New MinerUpdates
-            AIOU.Show()
+            AIOU.ShowDialog()
         End If
 
     End Sub
