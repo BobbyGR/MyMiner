@@ -8,9 +8,9 @@
     },
     {
       "NAME": "trex",
-      "WEBLOCATION": "https://github.com/trexminer/T-Rex/releases/download/0.18.5/t-rex-0.18.5-win-cuda11.1.zip",
+      "WEBLOCATION": "https://github.com/BobbyGR/AIOMiner/raw/master/TOOLS/t-rex-0.19.11-win-cuda11.1.zip",
       "PATH": "~\\Miners\\nvidia\\trex\\",
-      "VER": "0.18.5"
+      "VER": "0.19.11"
     }
   ]
 }
